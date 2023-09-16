@@ -62,17 +62,23 @@ public class StudentRecordManagementTest {
     }
 
 
-    // remark: test actually must be passed, however, it displays error because of spaces or new lines. take a note about it
+    // IMPORTANT REMARK:
+    // test actually must be passed, however, it displays error because of spaces or new lines. take a note about it
     @Test
     public void testDisplay() {
         management.add(record1);
+        // management.add(record2);
 
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
         management.display();
 
-        String expectedOutput = "Records{name=Alice, idNumber=1, contactNumber=1234}";
+        String expectedOutput = "Records{"
+                + "name=Alice"
+                + ", idNumber=1"
+                + ", contactNumber=1234"
+                + "}\n";
 
         assertEquals(expectedOutput, outContent.toString());
     }
