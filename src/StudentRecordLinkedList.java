@@ -8,7 +8,7 @@ public class StudentRecordLinkedList {
         Record record = new Record();
 
         // Initial Employee record
-        record.setIdNumber(1);
+        record.setIdNumber(3);
         record.setName("Kamal");
         record.setContactNumber(1488);
 
