@@ -17,4 +17,4 @@ To get started, clone the repository and import the project into your IDE. Then,
 
 The main usage of this program is implement different tests in java. Here I try to implement different types of test on my CRUD application. I start my test by simply pressing the button in my IDE (Intellij)
 
-Have fun here 👋
+Have fun here 👋  
