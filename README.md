@@ -11,7 +11,7 @@ To run this program, you will need:
 
 ## Getting Started
 
-To get started, clone the repository and import the project into your IDE. Then, open the `StudentRecordManagement` class and run the `main` method.
+To get started, clone the repository and import the project into your IDE. Then, open the `StudentRecordLinkedList` class and run the `main` method.
 
 ## Using the Program
 
