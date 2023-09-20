@@ -15,4 +15,6 @@ To get started, clone the repository and import the project into your IDE. Then,
 
 ## Using the Program
 
-The program presents a menu of options that allows users to add, delete, update, and search for records. To add a record, select option 1 and enter the student's name, ID number, and contact number. To delete a record, select option 2 and enter the student's ID number. To update a record, select option 3 and enter the student's ID number. To search for a record, select option 4 and enter the student's ID number.
+The main usage of this program is implement different tests in java. Here I try to implement different types of test on my CRUD application. I start my test by simply pressing the button in my IDE (Intellij)
+
+Have fun here 👋
